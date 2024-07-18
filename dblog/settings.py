@@ -32,7 +32,7 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.cluster-3g4scxt2njdd6uovkqyfcabgo6.cloudworkstations.dev/',
+    # 'https://*.cluster-3g4scxt2njdd6uovkqyfcabgo6.cloudworkstations.dev/',
 ]
 
 # Application definition
@@ -148,7 +148,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / 'components'
 ]
-STATIC_ROOT = '/home/user/blog-project/dblog/staticfiles'
+STATIC_ROOT = '/staticfiles'
 
 
 # Default primary key field type
